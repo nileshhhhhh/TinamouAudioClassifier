@@ -12,3 +12,6 @@ Test_Nilesh_Fonseka is used to test the 3 audio files using the saved model "DLm
 
 conda create -p venv python==3.11 -y
 
+## install packages in requirements.txt
+
+pip install package-name

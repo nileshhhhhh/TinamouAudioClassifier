@@ -3,3 +3,7 @@ sklearn
 pandas
 numpy
 matplotlib
+tensorflow
+keras
+librosa
+resampy
