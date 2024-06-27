@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Audio Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   </head>
   <body>
-    <h1>Upload an audio file for prediction</h1>
-    <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
-      <input type="file" name="file">
-      <input type="submit" value="Upload and Predict">
-    </form>
+    <div class="container">
+      <h1>Upload an audio file for prediction</h1>
+      <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload and Predict">
+      </form>
+    </div>
   </body>
 </html>

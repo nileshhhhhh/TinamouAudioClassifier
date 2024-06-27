@@ -15,3 +15,7 @@ conda create -p venv python==3.11 -y
 ## install packages in requirements.txt
 
 pip install package-name
+
+## run the app.py
+
+python app.py
